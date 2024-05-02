@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my twitter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="twitter">
+        <textarea name="" id="text" cols="30" rows="10"></textarea>
+        <br>
+        <div>
+        <span id="count">1</span><span>/100</span>
+    </div>
+    <br>
+    <button class="btn1">save</button>
+    </div>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <script src="java/twitter.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+
+    <div class="twitter">
+    <button class="btt2">Characters <div id="count"></div></button> <button class="btt2">Words</button><br>
+    <input type="text" id="charlim" onchange="limchange()" placeholder="Enter a character limit">
+    <button id="refresh" onclick="fresh()">Clear</button>
+    <br>
+    <textarea id="text" onkeypress="post()"  cols="30" rows="10"></textarea>
+    <br>
+    <div class="text2">
+    <span id="count">0</span> <span id="limit">/100</span>
+    </div>
+    <br>
+    <p id="inputuser"></p>
+    <button id="btn1" onclick="slice()">Done</button>
+    </div>
+
+    <script src="java/twitter.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
